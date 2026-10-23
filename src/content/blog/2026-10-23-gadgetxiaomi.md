@@ -2,7 +2,7 @@
 title: 【gadgetレビュー】アリエクでXiaomiの髭剃りを買ってみた
 description: Androidスマホでお馴染みのXiaomi製シェーバー『Mijia
   s101』をレビュー！Aliexpressから購入した髭剃りの配送から開封、使用してみての感想をまとめています！
-category: JUNK
+category: REVIEW
 pubDate: 2023-09-04
 heroImage: /images/6bf4dcfa90e747050ac746d053d84296-scaled.jpg
 ---
