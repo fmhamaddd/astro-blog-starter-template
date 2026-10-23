@@ -1,0 +1,215 @@
+---
+// src/pages/privacy-policy.astro
+---
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>プライバシーポリシー | JunkLab</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">
+        <span class="logo-icon">⚙</span> JunkLab
+      </a>
+      <div class="header-right">
+        <nav class="nav-menu">
+          <a href="/profile">PROFILE</a>
+        </nav>
+        <a href="https://youtube.com/" target="_blank" class="btn-youtube">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+          YouTube
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-container">
+        <h1 class="page-title">PRIVACY POLICY</h1>
+        
+        <div class="policy-card">
+          <p class="lead">当サイト「JunkLab」（以下、「当サイト」といいます。）における、個人情報の取扱いおよび免責事項について以下のとおり定めます。</p>
+
+          <h3>1. 個人情報の利用目的</h3>
+          <p>
+            当サイトでは、お問い合わせ等の際に、お名前（ハンドルネーム）やメールアドレス等の個人情報をご登録いただく場合がございます。これらの個人情報は、ご質問に対する回答や必要な情報を電子メール等でご連絡する場合に利用させていただくものであり、目的以外では利用いたしません。
+          </p>
+
+          <h3>2. 広告の配信について</h3>
+          <p>
+            当サイトでは、第三者配信の広告サービス（Google AdSense、各種アフィリエイトプログラム等）を利用する場合があります。このような広告配信事業者は、ユーザーの興味に応じた商品やサービスの広告を表示するため、当サイトや他サイトへのアクセスに関する情報『Cookie』(氏名、住所、メール アドレス、電話番号は含まれません) を使用することがあります。
+          </p>
+
+          <h3>3. アクセス解析ツールについて</h3>
+          <p>
+            当サイトでは、サイトの改善やトラフィックデータの収集のためにアクセス解析ツールを利用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。
+          </p>
+
+          <h3>4. 免責事項</h3>
+          <p>
+            当サイトに掲載されている情報（ジャンク品の修理、分解、改造、ソフトウェアの導入手順など）については、可能な限り正確な情報を提供するよう努めておりますが、その正確性や安全性を保証するものではありません。
+          </p>
+          <p>
+            機器の分解や改造はメーカー保証の対象外となるほか、破損や事故のリスクを伴います。当サイトの情報を利用して行う一切の行為は、すべて読者ご自身の責任において行っていただくものとし、当サイトを利用したことで生じた損害等について、一切の責任を負いかねますのでご了承ください。
+          </p>
+
+          <h3>5. 著作権について</h3>
+          <p>
+            当サイトで掲載している文章や画像、動画等の著作権は、当サイト運営者または各権利所有者に帰属します。法的に認められている引用の範囲を超えて、無断で転載することを禁止します。
+          </p>
+
+          <div class="back-link">
+            <a href="/">← トップページへ戻る</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="/sitemap">サイトマップ</a>
+          <a href="/privacy-policy">プライバシーポリシー</a>
+          <a href="/contact">お問い合わせ</a>
+        </div>
+        <p class="copyright">&copy; 2026 JunkLab. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg-color: #FAFAFA;
+    --text-color: #2D3748;
+    --color-blue-dark: #0726D9;
+    --color-cyan: #07C7F2;
+    --color-orange: #F28907;
+    --card-border: #E2E8F0;
+    --footer-bg: #1A202C; 
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    color: var(--text-color) !important;
+    background-color: var(--bg-color) !important;
+    background-image: linear-gradient(#e5e7eb 1px, transparent 1px),
+                      linear-gradient(90deg, #e5e7eb 1px, transparent 1px) !important;
+    background-size: 20px 20px !important;
+  }
+
+  main { min-height: 80vh; }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 3px solid var(--color-blue-dark);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    gap: 1rem;
+  }
+  .header-right { display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: var(--color-blue-dark);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+  }
+  .logo-icon { color: var(--color-cyan); font-size: 1.4rem; }
+  .nav-menu { display: flex; gap: 1.5rem; }
+  .nav-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .btn-youtube {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-orange);
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 5% 5rem;
+  }
+  .page-title {
+    display: inline-block;
+    border-bottom: 4px solid var(--color-cyan);
+    padding-bottom: 0.5rem;
+    color: var(--color-blue-dark);
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+  }
+
+  .policy-card {
+    background-color: #FFFFFF;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  }
+  .policy-card .lead {
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+  }
+  .policy-card h3 {
+    color: var(--color-blue-dark);
+    border-left: 4px solid var(--color-cyan);
+    padding-left: 0.8rem;
+    margin: 2rem 0 0.8rem;
+    font-size: 1.15rem;
+  }
+  .policy-card p {
+    line-height: 1.8;
+    color: #4A5568;
+    font-size: 0.95rem;
+    margin: 0 0 1rem 0;
+  }
+  .back-link {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--card-border);
+  }
+  .back-link a {
+    color: var(--color-blue-dark);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  .back-link a:hover {
+    color: var(--color-cyan);
+  }
+
+  .footer { background-color: var(--footer-bg); color: #ffffff; padding: 3rem 5%; }
+  .footer-content { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+  .footer-links { display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; }
+  .footer-links a { color: #A0AEC0; text-decoration: none; font-size: 0.9rem; }
+  .footer-links a:hover { color: var(--color-cyan); }
+  .copyright { font-size: 0.8rem; color: #718096; margin: 0; }
+</style>

@@ -1,0 +1,37 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: blog
+    label: 記事（Blog）
+    type: collection
+    path: src/content/blog
+    view:
+      fields: [ title, category, pubDate ]
+    fields:
+      - name: title
+        label: タイトル
+        type: string
+        required: true
+      - name: description
+        label: 記事の概要（一覧ページ用）
+        type: string
+        required: true
+      - name: category
+        label: カテゴリー
+        type: select
+        options:
+          values: [ JUNK, SOFTWARE, REVIEW ]
+        default: JUNK
+        required: true
+      - name: pubDate
+        label: 公開日
+        type: date
+        required: true
+      - name: heroImage
+        label: サムネイル画像
+        type: image
+      - name: body
+        label: 本文
+        type: rich-text

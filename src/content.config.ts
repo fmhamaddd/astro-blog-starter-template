@@ -13,6 +13,8 @@ const blog = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
+		// 【追加】記事のカテゴリー（JUNK, SOFTWARE, REVIEWなど）
+		category: z.string().default("JUNK"),
 	}),
 });
 
