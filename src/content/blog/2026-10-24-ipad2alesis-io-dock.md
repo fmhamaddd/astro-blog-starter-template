@@ -9,7 +9,7 @@ heroImage: /images/40e50feba83e0cb5ac5bb9d8bcc9313f.jpg
 今回のジャンクはCeVIO解説動画も制作してますので、
 
 興味のある方はどうぞ！
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DYnCVbtM3EM?si=gJSj1dgfOpXH17hZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 ## **本日のジャンク**
@@ -290,7 +290,7 @@ iPad4発売年に発売されたため、Lightningとの接続もサポートさ
 
 DTM用途は厳しくても、初期iPadの音質を上げて楽しむという、
 
-**ニッチな使用用途なら何とか使えるかな？**という部分もありますね。
+ニッチな使用用途なら何とか使えるかな？という部分もありますね。
 
 最後までお読みいただきありがとうございました。
 
