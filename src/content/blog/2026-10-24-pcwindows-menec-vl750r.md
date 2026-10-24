@@ -13,7 +13,7 @@ heroImage: /images/JR_NEC_VL750R_YT.jpg
 
 もしよければ、ご視聴ください。
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/c0d6k4DNc0o?si=cgUfAO7pf74fLC-k](https://www.youtube.com/embed/c0d6k4DNc0o?si=cgUfAO7pf74fLC-k)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0d6k4DNc0o?si=IjOEtrAZDN0Q600C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **今回のジャンク**
 
@@ -197,4 +197,3 @@ Windows Meは起動ディスクがまだ必要なので、
 
 ご覧いただけると幸いです。
 
-  
